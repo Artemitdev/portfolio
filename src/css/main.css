@@ -1,21 +1,265 @@
 
 @font-face {
     font-family: "firasans-light";
-    src: local("firasans-light"), url("./fira/firasans-light.woff") format("woff"), url("./fira/firasans-light.ttf") format("truetype");
+    src: local("firasans-light"), url("fonts/fira/firasans-light.woff") format("woff"), url("./fira/firasans-light.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "firasans-extralight";
-    src: local("firasans-extralight"), url("./fira/ffirasans-extralight.woff") format("woff"), url("./fira/firasans-extralight.ttf") format("truetype");
-}
 @font-face {
     font-family: "firasans-book";
-    src: local("firasans-book"), url("./fira/firasans-book.woff") format("woff"), url("./fira/firasans-book.ttf") format("truetype");
+    src: local("firasans-book"), url("fonts/fira/firasans-book.woff") format("woff"), url("./fira/firasans-book.ttf") format("truetype");
 }
-@font-face {
-    font-family: "firamono-regular";
-    src: local("firamono-regular"), url("./fira/firamono-regular.woff") format("woff"), url("./fira/firamono-regular.ttf") format("truetype");
 
-h1{
-	color: black;
+@font-face {
+    font-family: "ProximaNovaCond-Semibold";
+    src: local("ProximaNovaCond-Semibold"), url("fonts/Proxima-Nova/ProximaNovaCond-Semibold.otf") format("otf");
 }
+
+@font-face {
+    font-family: "firasans-medium";
+    src: local("firasans-medium"), url("fonts/fira/firasans-medium.woff") format("woff"), url("./fira/firasans-medium.ttf") format("truetype");
+}
+html{
+    overflow-x: hidden;
+}
+
+body {
+    background: url(".images/background.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);    
+  	margin: 0;
+    padding: 0;
+    width: 1400px;
+    overflow-x: hidden;
+}
+
+.background_header {
+    background: none repeat scroll 0 0 #eff2f7;
+    height: 116px;
+    width: 1400px;
+}
+
+.logo {
+    height: 42px;
+    margin-left: 99px;
+    position: absolute;
+    top: 39px;
+    width: 179px;
+}
+/*.logo {
+    height: 40px;
+    margin-left: 64px;
+    margin-top: 0px;
+    position: absolute;
+    width: 50px;
+}*/
+.socialbut {
+    display: block;
+    height: 47px;
+    left: 1039px;
+    position: absolute;
+    top: 28px;
+    width: 320px;
+}
+.vk, .fb, .tw, .gh {
+    float: left;
+    margin-right: 24px;
+    margin-top: 8px;
+}
+/*.gh{
+	margin-left: 0px;
+}*/
+.vk {
+ 	background: url("images/vk.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: block;
+    height: 47px;
+    width: 47px;
+    margin-left: 1px;
+}
+.vk:hover {
+    background: url("images/vk-active.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.header_line {
+    position: absolute;
+}
+/*.line_menu {
+    left: 220px;
+    position: relative;
+    top: 173px;
+    z-index: 999;
+}
+.menu {
+    background: url("images/background_menu.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    height: 300px;
+    left: 220px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 169px;
+    width: 250px;
+    z-index: 1;
+}
+.menu a {
+    border: 0 solid #e5e5e5;
+    color: #c0c0c0;
+    display: block;
+    padding: 18px;
+    padding-left: 28px;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #00ced1;
+}
+.menu li {
+}
+.menu .active a {
+    background: url("images/background_about.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: white;
+    font-family: firasans-book;
+	font-size: 23px;
+}
+.menu_text{
+	font-family: firasans-book;
+	font-size: 22px;
+	padding-left: 0px;
+}
+h2 {
+    padding-left: 22px;
+    margin-top: 15px;
+    font-family: firasans-extralight;
+    color: #00ACC4;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.block2 {
+    background: url("images/background_block2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    height: 254px;
+    left: 530px;
+    position: absolute;
+    top: 169px;
+    width: 650px;
+    z-index: 1;
+}
+.text{
+	position: absolute;
+	top: 91px;
+	left: 125px;
+}
+.year{
+	position: absolute;
+	top: 113px;
+	left: 125px;
+
+}
+.text2{
+	position: absolute;
+	top: 150px;
+	left: 125px;
+}
+.year2{
+	position: absolute;
+	top: 175px;
+	left: 125px;
+}
+
+.text3{
+	position: absolute;
+	top: 90px;
+	left: 125px;
+}
+
+.year3{
+	position: absolute;
+	top: 115px;
+	left: 125px;
+}
+.text4{
+	position: absolute;
+	top: 152px;
+	left: 125px;
+}
+
+.year4{
+	position: absolute;
+	top: 175px;
+	left: 125px;
+}
+.text, .text2, .text3, .text4 {
+	font-family: firasans-book;
+	color: #696969;
+}
+.year, .year2, .year3, .year4 {
+	font-family: firasans-book;
+	color: #A9A9A9;
+	font-size: 14px;
+}
+.line_block2{
+	left: 530px;
+    position: relative;
+    top: 76px;
+    z-index: 999;	
+}
+.block3 {
+    background: url("images/background_block2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    height: 254px;
+    left: 530px;
+    position: absolute;
+    top: 427px;
+    width: 650px;
+    z-index: 1;
+}
+.line_block3{
+	left: 530px;
+    position: relative;
+    top: 317px;
+    z-index: 999;
+}
+.img1 {
+    margin-right: 40px;
+    padding-left: 59px;
+    padding-top: 19px;
+}
+.img2 {
+    margin-right: 40px;
+    padding-left: 59px;
+    padding-top: 0px;
+}
+.img3 {
+    margin-right: 40px;
+    padding-left: 55px;
+    padding-top: 22px;
+}
+.img4 {
+    margin-right: 40px;
+    padding-left: 63px;
+    padding-top: 12px;
+}
+p {
+    padding-left: 140px;
+}
+.footer {
+    background: url("images/background_footer.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width: 1400px;
+    height: 80px;
+    margin-top: 513px;
+    margin-bottom: 0;
+}
+.line_footer{
+	position: absolute;
+	top: 687px;
+}
+.login{
+	position: absolute;
+	left: 255px;
+	top: 722px;
+}
+.footer_text{
+	position: absolute;
+	bottom: -65px;
+	left: 510px;
+	font-family: firasans-light;
+	color: #A9A9A9;
+	font-size: 13px;
+}*/
