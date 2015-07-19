@@ -27,11 +27,16 @@ body {
     width: 1400px;
     overflow-x: hidden;
 }
+
+/*Фон!*/
 .background_header {
     background: none repeat scroll 0 0 #eff2f7;
     height: 116px;
     width: 1400px;
 }
+/*Фон!*/
+
+/*Социальный блок!*/
 .logo{
     background: url("../images/logo.png") no-repeat;
     width: 243px;
@@ -40,6 +45,9 @@ body {
     top: 38px;
     left: 100px;
 }
+/*Логотип!*/
+
+/*Социальный блок!*/
 .socialbut{
     position: absolute;
     display: inline;
@@ -101,11 +109,16 @@ body {
     height: 47px;
     width: 47px;
 }
+/*Социальный блок!*/
 
+/*Навигационное меню!*/
 .menu{
 	background: url("../images/bg_menu.png") 0 0 no-repeat;
-	margin-left: 220px;
+	width: 250px;
+    height: 220px;
+    margin-left: 220px;
 	margin-top: 40px;
+    margin-bottom: 24px;
 }
 
 .menu a{
@@ -128,18 +141,65 @@ body {
 }
 .menu ul{
 	list-style: outside none none;
+    padding-left: 0px;
 }
 
+.menu_text{
+    font-family: firasans-book;
+    font-size: 22px;
+}
+/*Навигационное меню!*/
+
+/*Блок Контакты!*/
+.contacts{
+    width: 250px;
+    height: 160px;
+    margin-left: 220px;
+    color: white;
+}
+
+.contacts_title{
+    background: url("../images/contakts.png") 0 0 no-repeat;
+    font-size: 20px;
+    padding-left: 20px;
+}
 .contacts ul{
-	background: url("../images/contakts.png") 0 0 no-repeat;
-
-}
-.contacts ul ul{
 	list-style: none;
 	margin-left: -40px;
 }
 
+.mail{
+    background: url("../images/bg_mail.png") 0 0 no-repeat;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.mail .mail_title{
+    background: url("..//images/mail.png") 0 0 no-repeat;
+    padding-left: 20px;
+}
+.tel{
+    background: url("../images/bg_tel.png") 0 0 no-repeat;
+    font-size: 18px;
+    padding-left: 20px;
+}
 
+.tel .tel_title{
+    background: url("../images/phone.png") 0 0 no-repeat;
+    padding-left: 20px;
+}
+.skype{
+    background: url("../images/bg_skype.png");
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.skype .skype_title{
+    background: url("../images/skype.png") 0 0 no-repeat;
+    padding-left: 20px;
+}
+/*Блок Контакты!*/
+
+/*3 основных блока!*/
 h2 {
 	font-family: firasans-book;
 }
@@ -220,6 +280,7 @@ h2 {
 	background: url("../images/doc.png") 0 0 no-repeat;
 	padding-left: 60px;
 }
+/*3 основных блока!*/
 
 footer{
 	background: url("../images/background_footer.png") 0 0 no-repeat;
@@ -233,5 +294,5 @@ footer{
 	width: 20px;
 	height: 32px;
 	position: relative;
-	left: 200px;
+	left: 251px;
 }
