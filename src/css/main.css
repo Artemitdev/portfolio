@@ -43,8 +43,8 @@ body {
 .socialbut{
     position: absolute;
     display: inline;
-    top: 38px;
-    left: 977px;
+    top: 35px;
+    left: 1040px;
     width: 262px;
     height: 52px;
     list-style: none;
@@ -53,7 +53,6 @@ body {
 }
 .socialbut li{
     float: left;
-    padding-left: 
 }
 
 .vk{
@@ -102,36 +101,137 @@ body {
     height: 47px;
     width: 47px;
 }
+
+.menu{
+	background: url("../images/bg_menu.png") 0 0 no-repeat;
+	margin-left: 220px;
+	margin-top: 40px;
+}
+
+.menu a{
+    border: 0 solid #e5e5e5;
+    color: #c0c0c0;
+    display: block;
+    padding: 18px;
+    padding-left: 28px;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #00ced1;
+}
+
+.menu .active a {
+    background: url("../images/background_about.png") 0 0 no-repeat;
+    color: white;
+    font-family: firasans-book;
+	font-size: 23px;
+}
+.menu ul{
+	list-style: outside none none;
+}
+
+.contacts ul{
+	background: url("../images/contakts.png") 0 0 no-repeat;
+
+}
+.contacts ul ul{
+	list-style: none;
+	margin-left: -40px;
+}
+
+
+h2 {
+	font-family: firasans-book;
+}
+
 .main_info{
+	/*position: absolute;
+	left: 530px;
+	top: 160px;*/
 	background: url("../images/bg_block1.png") 0 0 no-repeat;
+	padding-top: 20px;
+}
+
+.main_info ul .text .main_title{
+	font-family: firasans-medium;
+	font-size: 16px; 
+	color: black;
+}
+
+.line_block1 {
+	background: url("../images/line_block1.png");
+	height: 2px;
+	width: 341px;
+	
 }
 .main_info ul li{
 	list-style: none;
 }
 
 .work{
+	/*position: absolute;
+	top: 400px; 
+	left: 530px;*/
 	background: url("../images/bg_block2.png") 0 0 no-repeat;
+	padding-top: 20px;
 }
+
+.line_block2 {
+	background: url("../images/line_block2.png");
+	height: 2px;
+	width: 209px;
+	
+}
+
 .work ul li{
 	list-style: none;
+	margin-bottom: 22px;
+	margin-top: 30px;
 }
+
 .work_title{
 	background: url("../images/bag.png") 0 0 no-repeat;
+	padding-left: 60px;
 }
 
 .learn{
+	top: 500px;
+	left: 400px;
 	background: url("../images/bg_block3.png") 0 0 no-repeat;
+	padding-top: 20px;
+	padding-left: 0px;
+}
+
+.line_block3 {
+	background: url("../images/line_block3.png");
+	height: 2px;
+	width: 214px;
 }
 .learn ul li{
 	list-style: none;
+	margin-bottom: 22px;
+	margin-top: 25px;
 }
 .learn_title{
 	background: url("../images/hat.png") 0 0 no-repeat;
+	padding-left: 60px;
 }
 .learn_title_course{
 	background: url("../images/doc.png") 0 0 no-repeat;
+	padding-left: 60px;
 }
 
 footer{
 	background: url("../images/background_footer.png") 0 0 no-repeat;
+	height: 78px;
+	font-family: ProximaNovaCond-Semibold;
+	text-align: center;
+	vertical-align: center;
+}
+.lock{
+	background: url("../images/lock.png");
+	width: 20px;
+	height: 32px;
+	position: relative;
+	left: 200px;
 }
