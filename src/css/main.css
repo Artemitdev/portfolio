@@ -24,7 +24,6 @@ html{
 }
 body {
     background: url("../images/background.png") scroll 0 0;    
-    width: 1400px;
     overflow-x: hidden;
 }
 
@@ -32,7 +31,7 @@ body {
 .background_header {
     background: none repeat scroll 0 0 #eff2f7;
     height: 116px;
-    width: 1400px;
+    width: 100%
 }
 /*Фон!*/
 
@@ -117,7 +116,7 @@ body {
 	width: 250px;
     height: 220px;
     margin-left: 220px;
-	margin-top: 40px;
+	margin-top: 45px;
     margin-bottom: 24px;
 }
 
@@ -156,6 +155,7 @@ body {
     height: 160px;
     margin-left: 220px;
     color: white;
+
 }
 
 .contacts_title{
@@ -163,10 +163,12 @@ body {
     font-size: 20px;
     padding-left: 20px;
     padding-bottom: 5px;
+
 }
 .contacts ul{
 	list-style: none;
 	margin-left: -40px;
+
 }
 
 .mail{
@@ -207,7 +209,11 @@ body {
 
 /*3 основных блока!*/
 h2 {
-	font-family: firasans-book;
+	font-family: firasans-light;
+    font-size: 25px;
+    color: #00ACC4;
+    margin:  0px 0px;
+    margin-left: -20px;
 }
     /*1 блок!*/
 .main_info{
@@ -215,13 +221,17 @@ h2 {
 	left: 530px;
 	top: 160px;
 	background: url("../images/bg_block1.png") 0 0 no-repeat;
-	padding-top: 20px;
+    min-height: 323px;
+    width: 650px;
+	padding-top: 0px;
 }
 
 .main_info ul .text .main_title{
-	font-family: firasans-medium;
+    font-family: firasans-medium;
 	font-size: 16px; 
 	color: black;
+    padding-bottom: 20px;
+    padding-left: 230px;
 }
 .disc{
     font-family: firasans-book;
@@ -232,6 +242,8 @@ h2 {
 	background: url("../images/line_block1.png");
 	height: 2px;
 	width: 341px;
+    margin-left: -40px;
+    margin-bottom: 27px;
 	
 }
 .main_info ul li{
@@ -240,7 +252,9 @@ h2 {
 .skills .bg_skills{
     background: url("../images/bg_skills.png") 0 0 no-repeat;
     border-radius: 5px;
+    padding: 1px 4px 1px 4px;
     color: white;
+    font-size: 10px;
 
 }
     /*1 блок!*/
@@ -251,6 +265,7 @@ h2 {
 	top: 508px; 
 	left: 530px;
 	background: url("../images/bg_block2.png") 0 0 no-repeat;
+    width: 650px;
 	padding-top: 20px;
 }
 
@@ -258,6 +273,7 @@ h2 {
 	background: url("../images/line_block2.png");
 	height: 2px;
 	width: 209px;
+    margin-left: -40px;
 	
 }
 
@@ -270,6 +286,7 @@ h2 {
 .work_title{
 	background: url("../images/bag.png") 0 0 no-repeat;
 	padding-left: 60px;
+    padding-right: 
 }
     /*2 блок!*/
 
@@ -279,6 +296,7 @@ h2 {
 	top: 765px;
 	left: 530px;
 	background: url("../images/bg_block3.png") 0 0 no-repeat;
+    width: 650px;
 	padding-top: 20px;
 	padding-left: 0px;
 }
@@ -287,6 +305,7 @@ h2 {
 	background: url("../images/line_block3.png");
 	height: 2px;
 	width: 214px;
+    margin-left: -40px;
 }
 .learn ul li{
 	list-style: none;
@@ -304,7 +323,11 @@ h2 {
         /*3 блок!*/
 /*3 основных блока!*/
 
-footer{
+.footer{
+    position: absolute;
+    top: 1037px;
+    width: 1440px;
+    bottom: 0px;
 	background: url("../images/background_footer.png") 0 0 no-repeat;
 	height: 78px;
 	font-family: ProximaNovaCond-Semibold;
@@ -317,8 +340,8 @@ footer{
 	height: 32px;
 	position: relative;
 	left: 251px;
+    top: -30px;
 }
-footer .foot{
-    position: absolute;
-    bottom: -100px;
+.footer .foot{
+    padding-top: 30px;
 }
