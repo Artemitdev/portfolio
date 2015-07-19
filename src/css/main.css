@@ -1,29 +1,110 @@
 
 @font-face {
     font-family: "firasans-light";
-    src: local("firasans-light"), url("fonts/fira/firasans-light.woff") format("woff"), url("./fira/firasans-light.ttf") format("truetype");
+    src: local("firasans-light"), url("../fonts/fira/firasans-light.woff") format("woff"), url("../fonts/fira/firasans-light.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "firasans-book";
-    src: local("firasans-book"), url("fonts/fira/firasans-book.woff") format("woff"), url("./fira/firasans-book.ttf") format("truetype");
+    src: local("firasans-book"), url("../fonts/fira/firasans-book.woff") format("woff"), url("../fonts/fira/firasans-book.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "ProximaNovaCond-Semibold";
-    src: local("ProximaNovaCond-Semibold"), url("fonts/Proxima-Nova/ProximaNovaCond-Semibold.otf") format("otf");
+    src: local("ProximaNovaCond-Semibold"), url("../fonts/Proxima-Nova/ProximaNovaCond-Semibold.otf") format("otf");
 }
 
 @font-face {
     font-family: "firasans-medium";
-    src: local("firasans-medium"), url("fonts/fira/firasans-medium.woff") format("woff"), url("./fira/firasans-medium.ttf") format("truetype");
+    src: local("firasans-medium"), url("../fonts/fira/firasans-medium.woff") format("woff"), url("../fonts/fira/firasans-medium.ttf") format("truetype");
 }
+
 html{
     overflow-x: hidden;
 }
-
 body {
-    background: url(".images/background.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);    
+    background: url("../images/background.png") scroll 0 0 rgba(0, 0, 0, 0);    
+    width: 1400px;
+    overflow-x: hidden;
+}
+.background_header {
+    background: none repeat scroll 0 0 #eff2f7;
+    height: 116px;
+    width: 1400px;
+}
+.logo{
+    background: url("../images/logo.png") no-repeat;
+    width: 243px;
+    height: 42px;
+    position: absolute;
+    top: 38px;
+    left: 100px;
+}
+.socialbut{
+    position: absolute;
+    display: inline;
+    top: 38px;
+    left: 977px;
+    width: 262px;
+    height: 52px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.socialbut li{
+    float: left;
+    padding-left: 
+}
+
+.vk{
+    background: url("../images/vk.png") no-repeat;
+    height: 47px;
+    width: 47px;
+    margin-right: 24px;
+}
+.vk:hover{
+    background: url("../images/vk-active.png") no-repeat;
+    height: 47px;
+    width: 47px;
+    margin-right: 24px;
+}
+.tw{
+    background: url("../images/tw.png") no-repeat;
+    height: 47px;
+    width: 47px;
+    margin-right: 24px;
+}
+.tw:active{
+    background: url("../images/tw-active.png");
+    height: 47px;
+    width: 47px;
+    margin-right: 24px;
+}
+.fb{
+    background: url("../images/fb.png") no-repeat;
+    height: 47px;
+    width: 47px;
+    margin-right: 24px;
+}
+.fb:active{
+    background: url("../images/fb-active.png");
+    height: 47px;
+    width: 47px;
+    margin-right: 24px;
+}
+.gh{
+    background: url("../images/gh.png") no-repeat;
+    height: 47px;
+    width: 47px;
+}
+.gh:active{
+    background: url("../images/gh-active.png");
+    height: 47px;
+    width: 47px;
+}
+/*
+body {
+    background: url("images/background.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);    
   	margin: 0;
     padding: 0;
     width: 1400px;
@@ -43,13 +124,13 @@ body {
     top: 39px;
     width: 179px;
 }
-/*.logo {
+logo {
     height: 40px;
     margin-left: 64px;
     margin-top: 0px;
     position: absolute;
     width: 50px;
-}*/
+}
 .socialbut {
     display: block;
     height: 47px;
@@ -63,9 +144,9 @@ body {
     margin-right: 24px;
     margin-top: 8px;
 }
-/*.gh{
+.gh{
 	margin-left: 0px;
-}*/
+}
 .vk {
  	background: url("images/vk.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     cursor: pointer;
@@ -77,25 +158,29 @@ body {
 .vk:hover {
     background: url("images/vk-active.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
+
 .header_line {
     position: absolute;
+    top: 105px;
 }
-/*.line_menu {
-    left: 220px;
+
+.line_menu {
+    left: 230px;
     position: relative;
-    top: 173px;
+    top: 174px;
     z-index: 999;
 }
+
 .menu {
-    background: url("images/background_menu.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: gray;
     border-radius: 5px;
-    height: 300px;
+    height: 220px;
     left: 220px;
     list-style: outside none none;
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 169px;
+    top: 158px;
     width: 250px;
     z-index: 1;
 }
@@ -113,7 +198,7 @@ body {
 .menu li {
 }
 .menu .active a {
-    background: url("images/background_about.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: silver no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     color: white;
     font-family: firasans-book;
 	font-size: 23px;
@@ -131,13 +216,23 @@ h2 {
     font-size: 25px;
     letter-spacing: 1px;
 }
-.block2 {
-    background: url("images/background_block2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+.block1 {
+    background: gray no-repeat;
     border-radius: 5px;
-    height: 254px;
+    height: 320px;
     left: 530px;
     position: absolute;
-    top: 169px;
+    top: 159px;
+    width: 650px;
+    z-index: 1;
+}
+.block2 {
+    background: gray no-repeat;
+    border-radius: 5px;
+    height: 233px;
+    left: 530px;
+    position: absolute;
+    top: 506px;
     width: 650px;
     z-index: 1;
 }
@@ -194,26 +289,35 @@ h2 {
 	color: #A9A9A9;
 	font-size: 14px;
 }
-.line_block2{
-	left: 530px;
+.line_block1{
+	width: 341px;
+	left: 550px;
     position: relative;
     top: 76px;
     z-index: 999;	
 }
 .block3 {
-    background: url("images/background_block2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: gray no-repeat;
     border-radius: 5px;
     height: 254px;
     left: 530px;
     position: absolute;
-    top: 427px;
+    top: 766px;
     width: 650px;
     z-index: 1;
 }
-.line_block3{
+.line_block2{
+	width: 209px;
 	left: 530px;
     position: relative;
-    top: 317px;
+    top: 408px;
+    z-index: 999;
+}
+.line_block3{
+	width: 209px;
+	left: 530px;
+    position: relative;
+    top: 500px;
     z-index: 999;
 }
 .img1 {
