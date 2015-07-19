@@ -23,7 +23,7 @@ html{
     overflow-x: hidden;
 }
 body {
-    background: url("../images/background.png") scroll 0 0 rgba(0, 0, 0, 0);    
+    background: url("../images/background.png") scroll 0 0;    
     width: 1400px;
     overflow-x: hidden;
 }
@@ -162,6 +162,7 @@ body {
     background: url("../images/contakts.png") 0 0 no-repeat;
     font-size: 20px;
     padding-left: 20px;
+    padding-bottom: 5px;
 }
 .contacts ul{
 	list-style: none;
@@ -176,6 +177,11 @@ body {
 .mail .mail_title{
     background: url("..//images/mail.png") 0 0 no-repeat;
     padding-left: 20px;
+}
+.article{
+    margin-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 .tel{
     background: url("../images/bg_tel.png") 0 0 no-repeat;
@@ -203,11 +209,11 @@ body {
 h2 {
 	font-family: firasans-book;
 }
-
+    /*1 блок!*/
 .main_info{
-	/*position: absolute;
+	position: absolute;
 	left: 530px;
-	top: 160px;*/
+	top: 160px;
 	background: url("../images/bg_block1.png") 0 0 no-repeat;
 	padding-top: 20px;
 }
@@ -216,6 +222,10 @@ h2 {
 	font-family: firasans-medium;
 	font-size: 16px; 
 	color: black;
+}
+.disc{
+    font-family: firasans-book;
+    color: #696969;
 }
 
 .line_block1 {
@@ -227,11 +237,19 @@ h2 {
 .main_info ul li{
 	list-style: none;
 }
+.skills .bg_skills{
+    background: url("../images/bg_skills.png") 0 0 no-repeat;
+    border-radius: 5px;
+    color: white;
 
+}
+    /*1 блок!*/
+
+    /*2 блок!*/
 .work{
-	/*position: absolute;
-	top: 400px; 
-	left: 530px;*/
+	position: absolute;
+	top: 508px; 
+	left: 530px;
 	background: url("../images/bg_block2.png") 0 0 no-repeat;
 	padding-top: 20px;
 }
@@ -253,10 +271,13 @@ h2 {
 	background: url("../images/bag.png") 0 0 no-repeat;
 	padding-left: 60px;
 }
+    /*2 блок!*/
 
+    /*3 блок!*/
 .learn{
-	top: 500px;
-	left: 400px;
+    position: absolute;
+	top: 765px;
+	left: 530px;
 	background: url("../images/bg_block3.png") 0 0 no-repeat;
 	padding-top: 20px;
 	padding-left: 0px;
@@ -280,6 +301,7 @@ h2 {
 	background: url("../images/doc.png") 0 0 no-repeat;
 	padding-left: 60px;
 }
+        /*3 блок!*/
 /*3 основных блока!*/
 
 footer{
@@ -295,4 +317,8 @@ footer{
 	height: 32px;
 	position: relative;
 	left: 251px;
+}
+footer .foot{
+    position: absolute;
+    bottom: -100px;
 }
