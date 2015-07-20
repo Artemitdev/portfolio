@@ -110,6 +110,7 @@ body {
 }
 /*Социальный блок!*/
 
+
 /*Навигационное меню!*/
 .menu{
 	background: url("../images/bg_menu.png") 0 0 no-repeat;
@@ -220,7 +221,8 @@ h2 {
 	position: absolute;
 	left: 530px;
 	top: 160px;
-	background: url("../images/bg_block1.png") 0 0 no-repeat;
+	background: #eff3f7;
+    border-radius: 5px;
     min-height: 323px;
     width: 650px;
 	padding-top: 0px;
@@ -250,11 +252,13 @@ h2 {
 	list-style: none;
 }
 .skills .bg_skills{
-    background: url("../images/bg_skills.png") 0 0 no-repeat;
+    display: inline-block;
+    font-family: firasans-medium; 
+    background: linear-gradient(to bottom, #3ba8c0 0%,#3ba8c0 49%,#2e8ca2 51%,#2e8ca2 100%);
     border-radius: 5px;
-    padding: 1px 4px 1px 4px;
+    padding: 5px 14px;
     color: white;
-    font-size: 10px;
+    font-size: 14px;
 
 }
     /*1 блок!*/
@@ -264,7 +268,8 @@ h2 {
 	position: absolute;
 	top: 508px; 
 	left: 530px;
-	background: url("../images/bg_block2.png") 0 0 no-repeat;
+	background: #eff3f7;
+    border-radius: 5px;
     width: 650px;
 	padding-top: 20px;
 }
@@ -295,10 +300,11 @@ h2 {
     position: absolute;
 	top: 765px;
 	left: 530px;
-	background: url("../images/bg_block3.png") 0 0 no-repeat;
+	background: #eff3f7;
     width: 650px;
 	padding-top: 20px;
 	padding-left: 0px;
+    border-radius: 5px;
 }
 
 .line_block3 {
