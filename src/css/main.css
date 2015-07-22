@@ -33,12 +33,12 @@ body {
   max-width: 1200px;
   min-width: 960px;
   height: 100%;
-    margin: 0 auto;
+  margin: 0 auto;
   position: relative;
 }
 .page-header {
   height: 119px;
-  background: #eff3f7 url('../img/line.png') bottom center no-repeat;
+  background: #eff3f7 url('../images/line.png') bottom center no-repeat;
   position: relative;
   margin-bottom: 39px;
 }
@@ -190,7 +190,7 @@ body {
 }
 .lock .lock-inner:hover{
     text-decoration: underline;
-    background: url(../img/lock-inner) no-repeat;
+    background: url(../images/login-in.png) no-repeat;
 }
 /* Логин - конец */
 /* Футер - конец */
