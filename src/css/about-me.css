@@ -43,7 +43,7 @@
 /* Список анкетных данных */
 .aboutbox .worksheet-wrap{
 	float: right;
-  width: 400px;
+  	width: 400px;
 }
 .worksheet-list{
 	list-style: none;

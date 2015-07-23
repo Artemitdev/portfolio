@@ -134,6 +134,7 @@ body {
     font-size: 22px;
 }
 /* Навигация - текущий пункт меню - конец */
+
 .navigation .navigation-link {
     font-family: 'fira_sansbook';
     display: block;
@@ -147,6 +148,72 @@ body {
     color: #3ba8c0;
 } 
 /* Навигация - конец */
+
+/*Контакты*/
+.contacts{
+    background: #3ba8c0;
+    border-radius: 4px;
+    color: white;
+    
+}
+.contacts li{
+    list-style: none;
+    margin-left: 0px;
+    padding: 10px 0px;
+}
+.contacts .contacts-list{
+    list-style: none;
+    margin: 0; 
+}
+.contact-list{
+    padding-left: 0px;
+}
+
+.contact-name{
+    margin-left: 20px;
+    font-size: 26px; 
+}
+
+.contacts .icon-mail{
+    background: url('../images/mail.png') no-repeat;
+    margin-left: 40px;
+}
+
+.contacts .icon-phone{
+    background: url('../images/phone.png') no-repeat;
+    margin-left: 40px;
+}
+
+.contacts .icon-skype{
+    background: url('../images/skype.png') no-repeat;
+    margin-left: 40px;
+}
+
+.contact-item .items{
+    margin-left: 40px;
+}
+
+.contacts .contact-item:nth-child(2){
+   background: #41b9d4; 
+}
+
+.contacts .contact-item:nth-child(3){
+   background: #48cbe8; 
+}
+.contacts .contact-item:last-child{
+   background: #51daf8; 
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px; 
+} 
+
+.contacts .contact-link{
+    font-style: 'fira_sansbook';
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/*Контакты - конец*/
 
 /* Главная область */
 .variable-content{
