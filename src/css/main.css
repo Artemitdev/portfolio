@@ -151,6 +151,8 @@ body {
 
 /*Контакты*/
 .contacts{
+    font-family: 'fira_sansbook';
+    font-style: normal;
     background: #3ba8c0;
     border-radius: 4px;
     color: white;
@@ -171,26 +173,38 @@ body {
 
 .contact-name{
     margin-left: 20px;
-    font-size: 26px; 
+    font-size: 22px; 
 }
 
 .contacts .icon-mail{
     background: url('../images/mail.png') no-repeat;
     margin-left: 40px;
+    color: white;
+    text-decoration: none;
 }
 
 .contacts .icon-phone{
     background: url('../images/phone.png') no-repeat;
     margin-left: 40px;
+    color: white;
+    text-decoration: none;
 }
 
 .contacts .icon-skype{
     background: url('../images/skype.png') no-repeat;
     margin-left: 40px;
+    color: white;
+    text-decoration: none;
 }
 
 .contact-item .items{
     margin-left: 40px;
+    font-size: 15px;
+}
+
+.contact-item a:hover{
+    color: white;
+    text-decoration: underline;
 }
 
 .contacts .contact-item:nth-child(2){
@@ -207,12 +221,10 @@ body {
 } 
 
 .contacts .contact-link{
-    font-style: 'fira_sansbook';
     text-decoration: none;
     color: inherit;
     display: block;
 }
-
 /*Контакты - конец*/
 
 /* Главная область */
