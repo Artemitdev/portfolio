@@ -19,7 +19,7 @@
  <!-- CSS -->
         <link rel="stylesheet" href="bower/normalize.css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/portfolio.css">
+        <link rel="stylesheet" href="css/contact-me.css">
  <!--modernizer--> 
         <script src="bower/modernizer/modernizr.js"></script>     
  	</head>
@@ -54,8 +54,8 @@
                 <nav class="navigation">
                     <ul class="navigation-list">
                         <li class="navigation-item"><a href="/" class="navigation-link">Обо мне</a></li>
-                        <li class="navigation-item current"><a href="/my-work.html" class="navigation-link">Мои работы</a></li>
-                        <li class="navigation-item"><a href="/contact-me.html" class="navigation-link">Связаться со мной</a></li>
+                        <li class="navigation-item"><a href="/portfolio.html" class="navigation-link">Мои работы</a></li>
+                        <li class="navigation-item current"><a href="/contact-me.html" class="navigation-link">Связаться со мной</a></li>
                   </ul>
                 </nav>
                 <address class="contacts">
@@ -80,11 +80,34 @@
             </aside>
             <!-- Изменяемый контент -->
           <div class="variable-content">
-                 
+                <section class="block-form">
+                      <h2 class="block-form-header">У вас есть интересный проект? Напишите мне!</h2>
+                  <form class="body-form">
+                    <div class="area-input inline left-col">
+                      <label for="name">Имя</label>
+                      <input type="text" class="" id="input-name" placeholder="Как к вам обращаться">
+                    </div>
+                    <div class="area-input inline">
+                      <label for="email">Email</label>
+                      <input type="email" class="" id="input-mail" placeholder="Куда мне писать"> 
+                    </div>
+                    <div class="area-input">
+                    <label for="message">Сообщение</label>
+                    <textarea class="" rows="8" placeholder="Кратко в чем суть"></textarea>
+                    </div>
+                    <div class="area-input inline left-col">
+                      <span class="for-form">Введите код указанный на картинке</span>
+                      <div class="captcha"></div>
+                    <textarea rows="1" placeholder="Введите код"></textarea>
+                    </div>
+                    <button type="submit" class="">Отправить</button>
+                    <button type="submit" class="">Очистить</button>
+                  </form>
+                </section> 
           </div>
         </div>
       </div>
-    </div>    
+    </div>       
  
         <footer class="page-footer">
             <div class="container">
