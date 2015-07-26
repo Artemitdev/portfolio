@@ -38,7 +38,7 @@
 	height: 129px;
 	width: 100%;
 	overflow: hidden;
-	border-radius: 5px;
+	border-radius: 4px;
 	box-sizing: border-box;
 	border: 2px solid #3ba8c0;
 	background: #fff;
@@ -47,14 +47,10 @@
 }
 
 .site-image{
-	background: gray;
-	display: inline-block;
-  	width: 100%;
-  	height: 100%;
-  	background-size: cover;
-  	background-repeat: no-repeat;
-  	background-position: top center;
-  	border-radius: 4px;
+	height: 127px;
+	width: 181px;
+	position: relative;
+	z-index: 1;
 }
 
 .image-hover{
@@ -69,8 +65,12 @@
 	border-radius: 4px;
 	text-align: center;
 	opacity: 0;
-	transition: opacity 0.3s linear;
 }
+
+.image-hover:hover{
+	opacity: 1;
+}
+
 
 .button{
 	color: #fff;
@@ -80,12 +80,14 @@
 	border: 3px solid #fff;
 	border-radius: 5px;
 	margin-top: 45px;
+	text-decoration: none;
 }
 
 .link{
 	font-style: italic;
 	font-size: 14px;
 	color: #3ba8c0;
+	text-decoration: none;
 }
 
 .description{
@@ -93,3 +95,36 @@
 	font-size: 14px;
 	line-height: 20px;
 }
+
+/* Добавление нового проекта*/
+.work-block-add{
+	width: 183px;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	margin: 0 15px;
+	margin-bottom: 30px;
+	text-align: center;
+	position: relative;
+}
+
+.work-block-image-add{
+	height: 129px;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background: url("../images/bg_add.png");
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.add{
+	padding-top: 80px;
+}
+.work-block-add a{
+	text-decoration: none;
+	color: #3ba8c0;
+}
+/* Конец Добавление нового проекта*/
