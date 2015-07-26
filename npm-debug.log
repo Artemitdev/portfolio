@@ -1,0 +1,138 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '­­save­dev', 'gulp' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.6
+4 verbose config Skipping project config: /Users/Temchik/.npmrc. (matches userconfig)
+5 verbose install initial load of /Users/Temchik/package.json
+6 verbose installManyTop reading scoped package data from /Users/Temchik/node_modules/gulp/package.json
+7 verbose readDependencies loading dependencies from /Users/Temchik/package.json
+8 silly cache add args [ '­­save­dev', null ]
+9 verbose cache add spec ­­save­dev
+10 verbose install gulp is installed as 3.9.0
+11 silly cache add args [ 'gulp', null ]
+12 verbose cache add spec gulp
+13 silly cache add parsed spec { raw: '­­save­dev',
+13 silly cache add   scope: null,
+13 silly cache add   name: null,
+13 silly cache add   rawSpec: '­­save­dev',
+13 silly cache add   spec: '/Users/Temchik/Dropbox/homework1/­­save­dev',
+13 silly cache add   type: 'local' }
+14 silly cache add parsed spec { raw: 'gulp',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'gulp',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: '*',
+14 silly cache add   type: 'range' }
+15 silly addNamed gulp@*
+16 verbose addNamed "*" is a valid semver range for gulp
+17 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+18 silly mapToRegistry name gulp
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/gulp
+22 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+23 error addLocal Could not install /Users/Temchik/Dropbox/homework1/­­save­dev
+24 verbose request uri https://registry.npmjs.org/gulp
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 7:43:27 PM
+27 verbose request id 5da71bd47723e6ba
+28 verbose etag "BF2JK86JBYRVW9INOOP5EZ3LY"
+29 http request GET https://registry.npmjs.org/gulp
+30 http 304 https://registry.npmjs.org/gulp
+31 silly get cb [ 304,
+31 silly get   { date: 'Sat, 18 Jul 2015 16:43:27 GMT',
+31 silly get     via: '1.1 varnish',
+31 silly get     'cache-control': 'max-age=60',
+31 silly get     etag: '"BF2JK86JBYRVW9INOOP5EZ3LY"',
+31 silly get     age: '58',
+31 silly get     connection: 'keep-alive',
+31 silly get     'x-served-by': 'cache-fra1238-FRA',
+31 silly get     'x-cache': 'HIT',
+31 silly get     'x-cache-hits': '1',
+31 silly get     'x-timer': 'S1437237807.308809,VS0,VE0',
+31 silly get     vary: 'Accept' } ]
+32 verbose etag https://registry.npmjs.org/gulp from cache
+33 verbose get saving gulp to /Users/Temchik/.npm/registry.npmjs.org/gulp/.cache.json
+34 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+35 silly addNameRange versions [ 'gulp',
+35 silly addNameRange   [ '0.0.1',
+35 silly addNameRange     '0.0.2',
+35 silly addNameRange     '0.0.3',
+35 silly addNameRange     '0.0.4',
+35 silly addNameRange     '0.0.5',
+35 silly addNameRange     '0.0.7',
+35 silly addNameRange     '0.0.8',
+35 silly addNameRange     '0.0.9',
+35 silly addNameRange     '0.1.0',
+35 silly addNameRange     '0.2.0',
+35 silly addNameRange     '1.0.0',
+35 silly addNameRange     '1.1.0',
+35 silly addNameRange     '1.2.0',
+35 silly addNameRange     '1.2.1',
+35 silly addNameRange     '2.0.0',
+35 silly addNameRange     '2.0.1',
+35 silly addNameRange     '2.1.0',
+35 silly addNameRange     '2.2.0',
+35 silly addNameRange     '2.3.0',
+35 silly addNameRange     '2.4.0',
+35 silly addNameRange     '2.4.1',
+35 silly addNameRange     '2.6.0',
+35 silly addNameRange     '2.6.1',
+35 silly addNameRange     '2.7.0',
+35 silly addNameRange     '3.0.0',
+35 silly addNameRange     '3.1.1',
+35 silly addNameRange     '3.1.2',
+35 silly addNameRange     '3.1.3',
+35 silly addNameRange     '3.1.4',
+35 silly addNameRange     '3.2.0',
+35 silly addNameRange     '3.2.1',
+35 silly addNameRange     '3.2.2',
+35 silly addNameRange     '3.2.3',
+35 silly addNameRange     '3.2.4',
+35 silly addNameRange     '3.2.5',
+35 silly addNameRange     '3.3.0',
+35 silly addNameRange     '3.3.1',
+35 silly addNameRange     '3.3.2',
+35 silly addNameRange     '3.3.4',
+35 silly addNameRange     '3.4.0',
+35 silly addNameRange     '3.5.0',
+35 silly addNameRange     '3.5.1',
+35 silly addNameRange     '3.5.2',
+35 silly addNameRange     '3.5.5',
+35 silly addNameRange     '3.5.6',
+35 silly addNameRange     '3.6.0',
+35 silly addNameRange     '3.6.1',
+35 silly addNameRange     '3.6.2',
+35 silly addNameRange     '3.7.0',
+35 silly addNameRange     '3.8.0',
+35 silly addNameRange     '3.8.1',
+35 silly addNameRange     '3.8.2',
+35 silly addNameRange     '3.8.3',
+35 silly addNameRange     '3.8.4',
+35 silly addNameRange     '3.8.5',
+35 silly addNameRange     '3.8.6',
+35 silly addNameRange     '3.8.7',
+35 silly addNameRange     '3.8.8',
+35 silly addNameRange     '3.8.9',
+35 silly addNameRange     '3.8.10',
+35 silly addNameRange     '3.8.11',
+35 silly addNameRange     '3.9.0' ] ]
+36 silly addNamed gulp@3.9.0
+37 verbose addNamed "3.9.0" is a plain semver version for gulp
+38 silly cache afterAdd gulp@3.9.0
+39 verbose afterAdd /Users/Temchik/.npm/gulp/3.9.0/package/package.json not in flight; writing
+40 verbose afterAdd /Users/Temchik/.npm/gulp/3.9.0/package/package.json written
+41 verbose stack Error: ENOENT, open '/Users/Temchik/Dropbox/homework1/­­save­dev'
+41 verbose stack     at Error (native)
+42 verbose cwd /Users/Temchik/Dropbox/homework1
+43 error Darwin 15.0.0
+44 error argv "node" "/usr/local/bin/npm" "install" "­­save­dev" "gulp"
+45 error node v0.12.6
+46 error npm  v2.11.2
+47 error path /Users/Temchik/Dropbox/homework1/­­save­dev
+48 error code ENOENT
+49 error errno -2
+50 error enoent ENOENT, open '/Users/Temchik/Dropbox/homework1/­­save­dev'
+50 error enoent This is most likely not a problem with npm itself
+50 error enoent and is related to npm not being able to find a file.
+51 verbose exit [ -2, true ]

@@ -1,0 +1,95 @@
+/* Общий стиль для секции */
+.allworks{
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+}
+
+.allworks .allworks-header{
+	font-family: 'fira_sansbook';
+	font-size: 27px;
+	font-weight: normal;
+	color: #3ba8c0;
+	border-bottom: 2px #3ba8c0 solid;
+	margin: 0 0 23px 0;
+	padding: 13px 23px;
+	display: inline-block;
+}
+
+.allworks-body{
+	padding-bottom: 40px;	
+}
+/* Конец Общий стиль для секции */
+
+/* Стиль блоков*/
+.work-block {
+	width: 183px;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+	margin: 0 15px;
+	margin-bottom: 30px;
+	text-align: center;
+	position: relative;
+}
+
+.work-block-image{
+	height: 129px;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 5px;
+	box-sizing: border-box;
+	border: 2px solid #3ba8c0;
+	background: #fff;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.site-image{
+	background: gray;
+	display: inline-block;
+  	width: 100%;
+  	height: 100%;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: top center;
+  	border-radius: 4px;
+}
+
+.image-hover{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: rgba(59, 168, 192, 0.9);
+	border-radius: 4px;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.3s linear;
+}
+
+.button{
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	padding: 4px 6px;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	margin-top: 45px;
+}
+
+.link{
+	font-style: italic;
+	font-size: 14px;
+	color: #3ba8c0;
+}
+
+.description{
+	color: #4a545d;
+	font-size: 14px;
+	line-height: 20px;
+}

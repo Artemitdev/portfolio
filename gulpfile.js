@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 //Запуск сервера
 gulp.task('server', function () {
 	browserSync({
-		port: 9000,
+		port: 3000,
 		server: {
 			baseDir: 'src'
 		}
@@ -14,9 +14,10 @@ gulp.task('server', function () {
 //слежка
 gulp.task('watch', function() {
 	gulp.watch([
-		'src/*,html',
-		'src/js/**/*.js',
-		'css/css/**/*.css'
+		'src/**/*'
+		//'src/*,html',
+		//'src/js/**/*.js',
+		//'css/css/**/*.css'
 		]).on('change', browserSync.reload);
 		});
 gulp.task('default', ['server', 'watch']);
