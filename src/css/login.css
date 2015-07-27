@@ -1,0 +1,75 @@
+
+.block-form{
+	background: #eff3f7;
+	text-align: center;
+	padding: 0 0 25px 0;
+	border-radius: 5px;
+	margin-bottom: 40px;
+	margin-right: 205px;
+	margin-left: 205px;
+	margin-top: 140px;
+}
+
+h2{
+	margin-top: 0px;
+	font-family: 'fira_sansbook';
+
+}
+
+.block-form-header{
+	color: #fff;
+	font-weight: normal;
+	font-size: 25px;
+	background: #48cbe8;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 15px solid #67dffa;
+	padding: 40px; 0;
+}
+
+.body-form{
+	width: 70%;
+	margin: 30px auto 0 auto;
+}
+
+label{
+	display: block; 
+	color: #959aa8; 
+	font-size: 18px;
+}
+
+input, textarea{
+	width: 100%;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #67dffa;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+textarea,input::-webkit-input-placeholder { 
+	color: #67dffa;
+	font-size: 13px;
+}
+
+textarea::-webkit-input-placeholder { 
+	color: #67dffa;
+	font-size: 13px;
+}
+
+.button{
+	width: 226px;
+	border-radius: 5px;
+	background: #48cbe8;
+	border: 1px solid #48cbe8;
+	border-bottom: 3px solid #3ba8c0;
+	color: white;
+}
+
+.password{
+	margin-top: 25px;
+	margin-bottom: 34px;
+}
+
+
+
