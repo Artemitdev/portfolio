@@ -85,23 +85,27 @@
                   <form class="body-form">
                     <div class="area-input inline left-col">
                       <label for="name">Имя</label>
-                      <input type="text" class="" id="input-name" placeholder="Как к вам обращаться">
+                      <input type="text" id="input-name" placeholder="Как к вам обращаться">
                     </div>
                     <div class="area-input inline">
                       <label for="email">Email</label>
-                      <input type="email" class="" id="input-mail" placeholder="Куда мне писать"> 
+                      <input type="email" id="input-mail" placeholder="Куда мне писать"> 
                     </div>
                     <div class="area-input">
                     <label for="message">Сообщение</label>
                     <textarea class="" rows="8" placeholder="Кратко в чем суть"></textarea>
                     </div>
-                    <div class="area-input inline left-col">
-                      <span class="for-form">Введите код указанный на картинке</span>
+                    <div class="area-input validation_block">
+                      <label for="captcha">Введите код указанный на картинке</label>
                       <div class="captcha"></div>
-                    <textarea rows="1" placeholder="Введите код"></textarea>
+                      <div class="input-code">
+                      <textarea rows="1" placeholder="Введите код"></textarea>
+                      </div>
                     </div>
-                    <button type="submit" class="">Отправить</button>
-                    <button type="submit" class="">Очистить</button>
+                    <div class="buttons-block">
+                    <button type="submit" value="Отправить" class="send buttons">Отправить</button>
+                    <button type="reset" value="Очистить" class="clear buttons">Очистить</button>
+                    </div>
                   </form>
                 </section> 
           </div>

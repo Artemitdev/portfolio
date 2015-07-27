@@ -28,7 +28,7 @@ h2{
 	margin: 45px auto 0 auto;
 }
 
-label, .for-form {
+label{
 	display: block; 
 	color: #959aa8; 
 	font-size: 18px;
@@ -57,7 +57,54 @@ input, textarea{
 	box-sizing: border-box;
 }
 
+.validation-block{
+	text-align: left;
+}
+
 .captcha{
+	background: url("../images/captcha.png");
+	display: inline-block;
+	width: 40%;
+	margin-right: 20px;
+	border: 1px solid #67dffa;
+	border-radius: 5px;
+	height: 80px;
+
+}
+.input-code{
+	display: inline-block;
+	width: 54%;
+	margin-left: 0px;
+	padding-top: 20px;
+}
+
+textarea,input::-webkit-input-placeholder { 
+	color: #67dffa;
+	font-size: 13px;
+}
+
+textarea::-webkit-input-placeholder { 
+	color: #67dffa;
+	font-size: 13px;
+}
+
+.buttons{
+	width: 125px;
+	border-radius: 5px;
+}
+.send{
+	margin-right: 265px;
+	background: #48cbe8;
+	border: 1px solid #48cbe8;
+	border-bottom: 3px solid #3ba8c0;
+	color: white;
+}
+
+.clear{
+	background: #849db5;
+	border: 1px solid #849db5;
+	border-bottom: 3px solid #687b8f;
+	color: white;
 }
 
 
