@@ -78,6 +78,7 @@
 	width: 224px;
 	padding: 0;
 	list-style: none;
+	margin-top: 4px;
 }
 .skills-list .skill-item{
 	display: inline-block;
@@ -90,7 +91,6 @@
 	background: -ms-linear-gradient(top,  #3ba8c0 0%,#3ba8c0 49%,#2e8ca2 50%,#2e8ca2 99%); /* IE10+ */
 	background: linear-gradient(to bottom,  #3ba8c0 0%,#3ba8c0 49%,#2e8ca2 50%,#2e8ca2 99%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ba8c0', endColorstr='#2e8ca2',GradientType=0 ); /* IE6-9 */
-	border-radius: 4px;
 	padding: 0 7px;
 	margin-right: 6px;
 	color: white;
@@ -98,6 +98,7 @@
 	line-height: 1.2;
 	min-width: 40px;
 	text-align: center;
+	border-radius: 3px;
 }
 
 
