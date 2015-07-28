@@ -1,0 +1,11 @@
+order_id;date;client_id;client;group;email;phone;address;comments
+22611;"2015-07-28 19:26:54";000000737;"Sergey Mansurov";Харьков;serhii.mansurov@gmail.com;0939700555;"Получатель - КОВАЛЬЧУК СВЕТЛАНА. Mariupol NOVApochta sklad 2. 
+";
+part_no;name;comment;qty
+Ц-000034279;"Power Bank 10000 mAh Remax Proda Macro Powerbox, red";13.5;2
+Ц-000034280;"Power Bank 10000 mAh Remax Proda Macro Powerbox, yellow";13.5;2
+Ц-000034297;"Power Bank 20000 mAh Remax Proda Jane, blue";20;1
+Ц-000034298;"Power Bank 20000 mAh Remax Proda Jane, grey";20;1
+Ц-000033213;"HF stereo bluetooth BH503";11;3
+Ц-000030898;"Ultrathin TPU 0.3 mm case for iPhone 4/4s black";;5
+Ц-000030891;"Ultrathin TPU 0.3 mm case for iPhone 5/5s black";;5

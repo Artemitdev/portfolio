@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Price-list</title>
+<style>
+body, td {
+    font-family: verdana, arial;
+    font-size: 12px;
+    background: #ffffff;
+    color: #000066;
+}
+td {
+    background: transparent;
+}
+td.head {
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+}
+tr.cat td {
+    background: #224272;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+tr.brand td {
+    background: #afb0b2;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+tr.item td {
+    border-bottom: 1px solid #afb0b2;
+}
+tr.cat td.norm {
+    font-size: 12px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<table cellspacing="0">
+    <tr>
+        <td class="head"></td>
+        <td align="right" colspan="13">28.07.2015</td>
+    </tr>
+<tr class="cat">
+    <td width="100">Код</td>
+    <td width="600" class="norm">Наименование</td>
+    <td width="150" class="norm">Тип</td>
+    <td width="150" class="norm">Подтип</td>
+    <td width="100" class="norm">Бренд</td>
+    <td width="100" class="norm">Марка</td>
+    <td width="100" class="norm">Цена</td>
+    <td width="100" class="norm">РРЦ</td>
+    <td width="100" class="norm">Наличие</td>
+    <td width="600" class="norm">Киев</td>
+    <td width="100" class="norm">Харьков</td>
+    <td width="100" class="norm">Одесса</td>
+    <td width="100" class="norm">Ссылка на фотографию</td>
+    <td width="100" class="norm">Описание</td>
+</tr>
+    <tr class="item">
+    	<td width="100">Ц-000034101</td>
+		<td width="600" class="norm">Monopod Selfi AUX, green Z07-5S</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">3,95</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/c6567c761151357816063f631b328eed_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000034104</td>
+		<td width="600" class="norm">Monopod Selfie AUX, pink Z07-5S</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">3,95</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/78ff028cda4905a85a304ee8c6cc2fb1_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000034102</td>
+		<td width="600" class="norm">Monopod Selfie AUX, purple Z07-5S</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">3,95</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/a67bfbf87e52659324195fec4eb28452_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000032710</td>
+		<td width="600" class="norm">Кнопка для Selfie универсальная Bluetooth</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">1,99</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/c9efaf601798a88dffe14cd7f959b2ad_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000034111</td>
+		<td width="600" class="norm">Монопод AUX Locust series</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">6,40</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/7884a35646f45da1b52fad08b6cdabbb_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000034107</td>
+		<td width="600" class="norm">Монопод Aux Z07-5E Black For Apple (IOS) and Android</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">5,40</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/3586b76c2107ab83c7cfee96c3bb4de2_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000034108</td>
+		<td width="600" class="norm">Монопод Aux Z07-5E Mixcolor For Apple (IOS) and Android</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">5,40</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/eec908c6c5dd03b9a4b33b800b925c4c_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000034109</td>
+		<td width="600" class="norm">Монопод GoShot Q1 aux Mixcolor</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">5,40</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/d750ba28ecdb40648d1facc4a482f926_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000034106</td>
+		<td width="600" class="norm">Монопод GoShot Q2 с кнопкой Bluetooth black</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">7,50</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/c160f9bf203d0e5ab472ba7765a91e5a_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000034110</td>
+		<td width="600" class="norm">Монопод WS-SQB916 встроенный Bluetooth</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">7,90</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/479363090c31de77e330fa5b3151d251_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000033308</td>
+		<td width="600" class="norm">Монопод для Селфи with zoom selftimer03</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">10,80</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/9fd6cade3fe58e8d1df582c4b121caa1_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000033307</td>
+		<td width="600" class="norm">Монопод для Селфи встроенный Bluetooth,  Z07-5 strong</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">6,80</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/7671ec6c15c218db108424373908bb5d_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000032676</td>
+		<td width="600" class="norm">Монопод для Селфи встроенный Bluetooth, black Z07-5</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">6,80</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/49e143fb927ee5c216a2396d11f4dcf6_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000032675</td>
+		<td width="600" class="norm">Монопод для Селфи с кнопкой Bluetooth, black Z07-1</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">5,40</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/0b856154a0f3f168ff91c64dbf3e6d71_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+    <tr class="item">
+    	<td width="100">Ц-000032678</td>
+		<td width="600" class="norm">Монопод для Селфи с кнопкой Bluetooth, mixcolor Z07-1</td>
+		<td width="150" class="norm">Монопод</td>
+		<td width="150" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm"></td>
+		<td width="100" class="norm">5,40</td>
+		<td width="100" class="norm">0.00</td>
+		<td width="100" class="norm">active</td>
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">ЕСТЬ</td> 
+		<td width="100" class="norm">НЕТ</td> 
+		<td width="600" class="norm">http://kmt5.com/images/products/0353cf5ceccfd3a9b9248115461a90d3_large.jpg</td>
+		<td width="100" class="norm"></td>     
+    </tr>
+</table>
+</body>
+</html>
