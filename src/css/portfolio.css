@@ -128,3 +128,9 @@
 	color: #3ba8c0;
 }
 /* Конец Добавление нового проекта*/
+
+/*POPUP*/
+.popup{
+	border: 2px black;
+	display: block;
+}
