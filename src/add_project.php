@@ -1,9 +1,9 @@
-<<?php 
+<?php 
 
 	$name = $_POST ['projectName'];
 	$data = array();
 	
-	if ($name ==="") {
+	if ($name ==='') {
 		$data['status'] = 'error';
 		$data['text'] = 'Заполните имя!';
 	}else{

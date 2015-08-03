@@ -129,8 +129,6 @@
 }
 /* Конец Добавление нового проекта*/
 
-/*POPUP*/
-.popup{
-	border: 2px black;
-	display: block;
+#new-project-popup { 
+	display: none;
 }

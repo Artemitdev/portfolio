@@ -2,28 +2,27 @@ var myModule = (function () {
 
 	//Инициализирует наш модуль
 	var init = function () {
-		_setUpListners();
-		//то что должно произойти сразу!
+			_setUpListners();
 		};
 	
 	//Прослушывает события
 	var _setUpListners = function () {
-		$('#add-new-item').on('click', _showModal); //открыть модальное окно
-		$('#add-new-project').on('submit', _addProject); //добавление проекта
-
+			$('#add-new-item').on('click', _showModal); //открыть модальное окно
+			$('#add-new-project').on('submit', _addProject); //добавление проекта
 		};
 	
 	//Работает с модальным окном
 	var _showModal = function (ev) {
 			console.log ('Вызов модального окна');
 			ev.preventDefault(); //отменить подпрыгивание экрана при нажатии на ссылку
+			
 			var divPopup = $('#new-project-popup'),
 				form = divPopup.find('.form');
 
-			divPopup.bPopup({
+			divPopup.bPopup({ //настройки popup (используются свойства из официального ресурса)
 				speed: 650,
-				transition: 'slideDown'
-				onClose: function (){
+				transition: 'slideDown',
+				onClose: function () {
 					form.find('.server-mes').text('').hide();
 				} 
 			});
@@ -43,6 +42,7 @@ var myModule = (function () {
 				console.log("ans");
 				var succesBox = form.find('.succes-mes'),
 					errorBox = form.find('.error-mes');
+				
 				if(ans.status === 'OK'){
 					console.log(ans.text);
 					errorBox.hide();
