@@ -6,7 +6,7 @@ input, textarea, button {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	font-size: 25px;
+	font-size: 12px;
 	width: 100%;
 	padding: 12px 12px;
 }
@@ -36,6 +36,11 @@ input, textarea, button {
 
  .btn:hover{
  	border-bottom: none;
+ }
+
+ .btn-res{
+ 	background: #849db5;
+ 	border-color: #687b8f;
  }
 
  .btn-res:active{
