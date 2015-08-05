@@ -34,6 +34,8 @@ label{
 	font-size: 18px;
 }
 
+
+
 .area-input{
 	text-align: left;
 	width: 100%;
@@ -55,6 +57,7 @@ input, textarea{
 	border: 1px solid #67dffa;
 	padding: 10px;
 	box-sizing: border-box;
+	color: #67dffa;
 }
 
 .validation-block{

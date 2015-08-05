@@ -45,6 +45,7 @@ input, textarea{
 	border: 1px solid #67dffa;
 	padding: 10px;
 	box-sizing: border-box;
+	color: #67dffa;
 }
 
 textarea,input::-webkit-input-placeholder { 
