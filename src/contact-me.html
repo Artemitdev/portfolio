@@ -18,8 +18,10 @@
         <link rel="stylesheet" href="fonts/Proxima-Nova/proximanovacond-semibold.css">
  <!-- CSS -->
         <link rel="stylesheet" href="bower/normalize.css/normalize.css">
+        <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/contact-me.css">
+        <link rel="stylesheet" href="css/form-elements.css">
  <!--modernizer--> 
         <script src="bower/modernizer/modernizr.js"></script>     
  	</head>
@@ -82,24 +84,23 @@
           <div class="variable-content">
                 <section class="block-form">
                       <h2 class="block-form-header">У вас есть интересный проект? Напишите мне!</h2>
-                  <form class="body-form">
+                  <form id="contact-me" class="body-form">
                     <div class="area-input inline left-col">
                       <label for="name">Имя</label>
-                      <input type="text" id="input-name" placeholder="Как к вам обращаться">
+                      <input type="text" id="input-name" placeholder="Как к вам обращаться" qtip-content="Вы не ввели имя" class="input">
                     </div>
                     <div class="area-input inline">
                       <label for="email">Email</label>
-                      <input type="email" id="input-mail" placeholder="Куда мне писать"> 
+                      <input type="email" id="input-mail" placeholder="Куда мне писать" qtip-position="right" qtip-content="Вы не ввели email" class="input"> 
                     </div>
                     <div class="area-input">
                     <label for="message">Сообщение</label>
-                    <textarea class="" rows="8" placeholder="Кратко в чем суть"></textarea>
+                    <textarea class="" rows="8" placeholder="Кратко в чем суть" qtip-content="Что вы от меня хотите?" class="textarea"></textarea>
                     </div>
                     <div class="area-input validation_block">
-                      <label for="captcha">Введите код указанный на картинке</label>
-                      <div class="captcha"></div>
+                      <label for="captcha">Введите код указанный на картинке</label><img src="images/captcha.jpg" alt="code" class="captcha">
                       <div class="input-code">
-                      <textarea rows="1" placeholder="Введите код"></textarea>
+                      <textarea rows="1" placeholder="Введите код" qtip-position="right" qtip-content="Вы не ввели код" class="input input-captcha pull-right"></textarea>
                       </div>
                     </div>
                     <div class="buttons-block">
@@ -122,6 +123,8 @@
         </footer>
 
         <script src="bower/jquery/dist/jquery.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/validation.js"></script>
+        <script src='js/contact-me.js'></script>
+        <script src="bower/qtip2/jquery.qtip.js"></script>
     </body>
 </html>
