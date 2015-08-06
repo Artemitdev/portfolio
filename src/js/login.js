@@ -1,4 +1,4 @@
-var contactMe = (function () {
+var loginMe = (function () {
 
 	// Инициализирует наш модуль
 	var init = function () {
@@ -15,7 +15,7 @@ var contactMe = (function () {
 		ev.preventDefault();
 
 		var form = $(this),
-				url = 'contactme.php',
+				url = 'login.php',
 				defObj = _ajaxForm(form, url);
 				// что-то будем делать с ответом с сервера defObj
 	};
@@ -34,4 +34,4 @@ var contactMe = (function () {
 
 })();
 
-contactMe.init();
+loginMe.init();

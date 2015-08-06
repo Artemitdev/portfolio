@@ -18,8 +18,10 @@
         <link rel="stylesheet" href="fonts/Proxima-Nova/proximanovacond-semibold.css">
  <!-- CSS -->
         <link rel="stylesheet" href="bower/normalize.css/normalize.css">
+        <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/form-elements.css">
  <!--modernizer--> 
         <script src="bower/modernizer/modernizr.js"></script>     
  	</head>
@@ -29,14 +31,14 @@
         <div class="container">
                 <section class="block-form">
                       <h2 class="block-form-header">Авторизуйтесь</h2>
-                  <form class="body-form">
+                  <form id="login" class="body-form">
                     <div class="login">
                       <label for="name">Логин</label>
-                      <input type="text" id="input-name" placeholder="Введите логин">
+                      <input type="text" id="input-name" placeholder="Введите логин" qtip-content="Вы не ввели логин" class="input">
                     </div>
                     <div class="password">
                       <label for="password">Пароль</label>
-                      <input type="password" id="input-mail" placeholder="Введите пароль"> 
+                      <input type="password" id="input-mail" placeholder="Введите пароль" qtip-content="Вы не ввели пароль" class="input"> 
                     </div>
                     <div class="button-block">
                     <button type="submit" value="Войти" class="send button">Войти</button>
@@ -56,6 +58,8 @@
         </footer>
 
         <script src="bower/jquery/dist/jquery.js"></script>
-        <script src="js/main.js"></script>
+        <script src="bower/qtip2/jquery.qtip.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/validation.js"></script>
     </body>
 </html>
